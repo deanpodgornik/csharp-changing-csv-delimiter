@@ -49,6 +49,7 @@ namespace WindowsFormsApplication1
                 openOldFile();
                 saveFile();
                 label3.Text = "Complete";
+
             }
             else {
                 MessageBox.Show("Input file is not selected");
