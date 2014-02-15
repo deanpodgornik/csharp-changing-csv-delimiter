@@ -57,6 +57,9 @@ namespace WindowsFormsApplication1
         }
 
         private void openOldFile() {
+            csv_columns = new List<string>();
+            data = new List<Dictionary<String, String>>();
+
             var old_delimiter = textBox1.Text;
 
             var reader = new StreamReader(File.OpenRead(input_filename));
@@ -82,7 +85,7 @@ namespace WindowsFormsApplication1
                     int st = 0;
 
                     csv_columns.ForEach(col => {
-                        tmp_dictionary.Add(col, values[st]);
+                        tmp_dictionary.Add(col, values[st].Replace(",","."));
                         st++;
                     });
                     data.Add(tmp_dictionary);
