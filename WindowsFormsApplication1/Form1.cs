@@ -100,17 +100,37 @@ namespace WindowsFormsApplication1
 
                 StringBuilder sb = new StringBuilder();
                 data.ForEach(item => {
-                    var tmp_data = new List<String>(){
-                        item["value0"],
-                        item["value1"],
-                        item["value2"]
-                    };
-                    sb.AppendLine(string.Join(new_delimiter, tmp_data)); 
+                    if(item["name"]==this.comboBox1.SelectedValue.ToString()){
+                        var tmp_data = new List<String>(){
+                            item["value0"],
+                            item["value1"],
+                            item["value2"]
+                        };
+                        sb.AppendLine(string.Join(new_delimiter, tmp_data)); 
+                    }
                 });
 
                 File.WriteAllText(saveFileDialog1.FileName, sb.ToString()); 
                 
             }            
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            var dataSource = new List<String>();
+            dataSource.Add("MPL Gravity");
+            dataSource.Add("MPL Accelerometer");
+            this.comboBox1.DataSource = dataSource;
         }
     }
 }

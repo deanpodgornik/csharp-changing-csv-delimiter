@@ -10,3 +10,9 @@ c:\users\dean podgornik\documents\visual studio 2013\Projects\WindowsFormsApplic
 C:\Users\user\Documents\Visual Studio 2012\Projects\csv_delimiter\csharp-changing-csv-delimiter\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 C:\Users\user\Documents\Visual Studio 2012\Projects\csv_delimiter\csharp-changing-csv-delimiter\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\user\Documents\Visual Studio 2012\Projects\csv_delimiter\csharp-changing-csv-delimiter\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\csv_delimiter\csharp-changing-csv-delimiter\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\csv_delimiter\csharp-changing-csv-delimiter\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\csv_delimiter\csharp-changing-csv-delimiter\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\csv_delimiter\csharp-changing-csv-delimiter\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\csv_delimiter\csharp-changing-csv-delimiter\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\csv_delimiter\csharp-changing-csv-delimiter\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
